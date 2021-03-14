@@ -33,7 +33,10 @@ jobs:
         with: 
           submodules: true
       - name: install
-        run: sudo apt-get install build-essential && cargo install mdbook --version=0.4.7
+        run: |
+          sudo apt-get install build-essential
+          rustup default nightly
+          cargo install mdbook --version=0.4.7
       - name: prepare
         run: |
           cargo install senile

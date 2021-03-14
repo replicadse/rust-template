@@ -8,7 +8,7 @@ description = "templaters"
 readme = "docs/README.md"
 homepage = "https://replicadse.github.io/templaters"
 repository = "https://github.com/replicadse/templaters"
-keywords = ["todo"]
+keywords = ["template"]
 categories = ["command-line-utilities"]
 
 [features]
